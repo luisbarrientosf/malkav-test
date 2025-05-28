@@ -3,12 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import LoginPage from './pages/LoginPage';
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <LoginPage />
+    <>
+      <LoginPage />
+      <Footer />
+    </>
   )
 }
 
